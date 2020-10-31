@@ -1,0 +1,34 @@
+ParamName,Description,CCGT,OCGT,Diesel,CCS,CCS,CCS,CCS,Coal,Geothermal,Geothermal,Geothermal,Geothermal,HydroR,HydroR,HydroR,HydroR,HydroS,HydroS,HydroS,HydroS,Battery_Fast,Battery_Fast,Battery_Med,Battery_Med,Battery_Slow,Battery_Slow,Wind,Wind,Wind,Wind,Wind
+K,"Capital investment costs, $ NZD / MW / Yr",138000,110400,1.00E+08,242717,242717,242717,242717,1.00E+08,430000,430000,430000,430000,430000,430000,430000,430000,5.16E+05,5.16E+05,5.16E+05,5.16E+05,314788,314788,163879,163879,48364,48364,178000,178000,178000,178000,178000
+C,"Operational costs, $ NZD / MWh",70,93,232,75,75,75,75,48,1,1,1,1,6,6,6,6,6,6,6,6,0.01,0.01,0.01,0.01,0.01,0.01,12,12,12,12,12
+L,"Maintenance costs, $ NZD / MW / Yr",45000,15000,15000,45000,45000,45000,45000,60000,150000,150000,150000,150000,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,7000,7000,6000,6000,5000,5000,20000,20000,20000,20000,20000
+U,Existing capacity,785,350,155,0,0,0,0,500,892.4,0,0,0,1527,0,0,0,3624,0,0,0,10,50,10,50,10,50,93,139.25,0,143,0
+u,Potential expansion amount,1000,1000,0.01,900,1000,1100,1200,0.01,60,60,60,60,900,1000,1100,1200,900,1000,1100,1200,10,50,10,50,10,50,900,600,800,700,1000
+em,"CO2-e emissions, tonnes / MWh",0.38,0.52,0.8,0.044,0.044,0.044,0.044,0.921,0.099,0.099,0.099,0.099,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+K_shut,"Capital investment costs, $ NZD / MW / Yr",138000,110400,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C_shut,"Operational costs, $ NZD / MWh",70,93,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L_shut,"Maintenance costs, $ NZD / MW / Yr",45000,15000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+U_shut,Existing capacity,785,350,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+em_shut,"CO2-e emissions, tonnes / MWh",0.38,0.52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+base_tech,Number of non-LDC-altering investments,26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LDC_tech,Number of LDC-altering investments,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+total_tech,Sum of both above,31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shutoff_tech,Num shutoff vars,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Huntly_num,Huntly (or coal) index in invs,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Huntly_stage,"Stage that we shutdown Huntly in 1=2020-2025, 2 = 2025-2030 etc",3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Geot_inds,All geothermal indices in the above list,9,10,11,12,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HydroR_number,Indices above (all),13,14,15,16,,,,,,,,,,,,,,,,,,,,,,,,,,,
+numHydroR,Number of HydroR techs ,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HydroS_number,Starting index in investments above,17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+numHydroS,Number of HydroS techs ,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+gatewidth,Distance from the hydro gate centres to each extreme,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+battery_number,Starting index in investments above,21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+numbattery ,Number of battery techs ,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+battery efficiency,Round trip battery efficiency,0.8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+beta,"Charge battery rate scaling factor vector. Fast, med, slow",2.766,2.766,0.885,0.885,0.162,0.162,,,,,,,,,,,,,,,,,,,,,,,,,
+V,"Value of lost load (VOLL), $ NZD / MWh",25000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Em,"Total maximum CO2 emissions, tonnes",1.00E+06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+discount_rate,Future discounting value,0.9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+numblocks,10 blocks per season = 40 blocks total,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+histyears,Number of historical years,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NormHydroYear,Number of historical years that emissions are allowed in,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
